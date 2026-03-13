@@ -1,0 +1,81 @@
+<!DOCTYPE html> <html>
+<head>
+    <meta charset="UTF-8">
+    <title>ประวัติพี่เอ็ม ออนิว</title>
+    <style>
+        body {
+            background-color: #f4f4f9;
+            font-family: 'Sarabun', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background-color: #FF00FF;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: inline-block;
+            max-width: 80%;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        ul {
+            text-align: left; 
+            display: inline-block;
+        }
+        .js-box {
+            margin-top: 20px;
+            padding: 15px;
+            border-top: 1px solid #ddd;
+        }
+        button {
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ประวัติพี่เอ็ม ออนิว</h1> <img src="https://thethaiger.com/th/wp-content/uploads/2025/12/594963086_1375335617269806_7515055704741260771_n.jpg" alt="พี่เอ็ม ออนิว">
+        
+        <p>หน้านี้สร้างขึ้นเพื่อแนะนำพื้นฐานการสร้างเว็บไซต์ด้วย HTML และ CSS</p> <h3>ความสามารถ 108 อย่างของนโปเลียนพี่เอ็ม ออนิว</h3>
+        <ul> <li>ขับเครื่องบินได้</li>
+            <li>ปลอมตัวได้หลากหลายชุด</li>
+            <li>กินน้ำแข็งได้</li>
+        </ul>
+
+        <p>
+            <a href="https://thethaiger.com/th/news/1498731/" target="_blank">กดลิงก์เพื่อไปยังหน้าเว็บข่าว</a>
+        </p>
+
+        <div class="js-box">
+            <h3>ทดสอบระบบโต้ตอบ</h3>
+            
+            <button onclick="welcome()">แสดงข้อความต้อนรับ</button>
+            
+            <br><br>
+
+            <input type="text" id="nameInput" placeholder="กรอกชื่อผู้ใช้">
+            <button onclick="greet()">ทักทาย</button>
+            <p id="greetMessage"></p>
+        </div>
+    </div>
+
+    <script>
+        // ฟังก์ชันที่ 1: แสดง alert [cite: 36]
+        function welcome() {
+            alert("ยินดีต้อนรับสู่เว็บไซต์ของฉัน"); [cite: 34]
+        }
+
+        // ฟังก์ชันที่ 2: รับค่าจาก Input และแสดงผล [cite: 41, 43]
+        function greet() {
+            const name = document.getElementById("nameInput").value;
+            if (name) {
+                document.getElementById("greetMessage").innerText = "สวัสดี " + name + " ยินดีต้อนรับ"; [cite: 43]
+            }
+        }
+    </script>
+</body>
+</html>
